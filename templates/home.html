@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crop Prediction Project</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #1a1a1a;
+            color: #fff;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+            position: relative;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        section {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #333;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+        }
+
+        h2, h3, p, ul {
+            margin-bottom: 15px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        button {
+            background-color: #4CAF50;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #45a049;
+            transform: scale(1.05);
+        }
+
+        button:focus {
+            outline: none;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Crop Prediction Project</h1>
+    </header>
+
+    <section>
+        <h2>Welcome to our Crop Prediction Platform</h2>
+        <p>
+            This platform uses advanced algorithms to predict crop yields based on various factors such as weather,
+            soil conditions, and historical data. Explore our features to make informed decisions for your
+            agricultural activities.
+        </p>
+
+        <h3>Key Features:</h3>
+        <ul>
+            <li>Accurate Crop Yield Prediction</li>
+            <li>Weather and Soil Analysis</li>
+            <li>Historical Data Insights</li>
+            <li>User-Friendly Interface</li>
+        </ul>
+
+        <button onclick="location.href='/prediction'">Make Prediction</button>
+        <button onclick="location.href='#show-data'">Show Data</button>
+    </section>
+
+    <footer>
+        &copy; 2024 Crop Prediction Project
+    </footer>
+</body>
+
+</html>
+
